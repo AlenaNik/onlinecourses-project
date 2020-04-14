@@ -1,0 +1,63 @@
+@import '../assets/css/buttons';
+@import '../assets/css/variables';
+
+
+.wrapper {
+      .main-illustration {
+          opacity: 0.8;
+          box-sizing: border-box;
+          display: flex;
+          justify-content: center;
+          margin-bottom: 45px;
+          margin-top: 20px;
+          width: 100%;
+          position: relative;
+          padding-top: $padding * 2;
+      }
+    .section-one {
+      box-sizing: border-box;
+      text-align: center;
+      width: 100%;
+      a {
+        text-decoration: none;
+      }
+          h1 {
+            font-size: $heading;
+            font-family: $font-family;
+            color: $text-primary;
+            font-weight: bolder;
+            letter-spacing: 1px;
+          }
+              h2 {
+                font-size: $sub-heading;
+                font-family: $font-family;
+                color: $text-secondary;
+                font-weight: $medium;
+              }
+      @include desktop {
+        text-align: left;
+        margin-left: $padding * 5;
+    }
+}
+  @include desktop {
+    align-items: center;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: row-reverse;
+    margin: 0 auto;
+    max-width: 1180px;
+  }
+}
+.section-two {
+  display: flex;
+  flex-direction: column;
+  padding-top: $padding;
+  a:link {
+    text-decoration: none;
+  }
+  @include desktop {
+        padding: 1rem;
+        display: flex;
+        flex-direction: row;
+    }
+}

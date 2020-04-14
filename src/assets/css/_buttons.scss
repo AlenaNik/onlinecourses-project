@@ -1,0 +1,97 @@
+@import 'variables';
+
+.btn-primary {
+  align-items: center;
+  background-color: $accent-blue;
+  border-radius: $border-radius;
+  border: $border;
+  color: $text-white;
+  display: inline-flex;
+  filter: contrast(1.1);
+  font-family: $font-family;
+  font-size: $small;
+  font-weight: 500;
+  height: 48px;
+  justify-content: center;
+  letter-spacing: 1px;
+  line-height: 20px;
+  min-width: 180px;
+  padding: 8px 23px;
+  text-decoration: none;
+  text-transform: uppercase;
+  transform: translateZ(0);
+  transition: all 150ms;
+        &:hover {
+          filter: contrast(1.35);
+          outline: 0;
+          transform: scale(1.05);
+        }
+}
+
+.btn-small {
+  background-color: $accent-yellow;
+  color: $text-white;
+  border: $border;
+  border-radius: .25rem;
+  font-size: $extra-small;
+  font-weight: $semi-bold;
+  font-family: $font-family;
+  letter-spacing: 1.5px;
+  line-height: 1.5rem;
+  margin-top: auto;
+  padding:  0 .8rem;
+  text-transform: uppercase;
+  z-index: 1;
+}
+
+.btn-small-disabled {
+   background-color: #d2d5e0;
+   color: $text-white;
+   border: $border;
+   border-radius: .25rem;
+   font-size: $extra-small;
+   font-weight: $semi-bold;
+   font-family: $font-family;
+   letter-spacing: 1.5px;
+   line-height: 1.5rem;
+   margin-top: auto;
+   padding:  0 .8rem;
+   text-transform: uppercase;
+   z-index: 1;
+ }
+
+.btn-small-active {
+  background-color: $accent-pink;
+  color: $text-white;
+  border: $border;
+  border-radius: .25rem;
+  font-size: $extra-small;
+  font-weight: $semi-bold;
+  font-family: $font-family;
+  letter-spacing: 1.5px;
+  line-height: 1.5rem;
+  margin-top: auto;
+  padding:  0 .8rem;
+  text-transform: uppercase;
+  z-index: 1;
+}
+
+.btn-small-visited {
+  background-color: $accent-blue;
+  color: $text-white;
+  border: $border;
+  border-radius: .25rem;
+  font-size: $extra-small;
+  font-weight: $semi-bold;
+  font-family: $font-family;
+  letter-spacing: 1.5px;
+  line-height: 1.5rem;
+  margin-top: auto;
+  padding:  0 .8rem;
+  text-transform: uppercase;
+  z-index: 1;
+}
+
+.btn-small-invisible {
+  display: none;
+}

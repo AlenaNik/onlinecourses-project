@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap');
+@font-face {
+  font-family: 'Lato', sans-serif;;
+  font-style: normal;
+  font-display: swap;
+  src: url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap');
+}
+
+$text-primary: rgba(0,0,0,.9);
+$font-family: 'Lato', sans-serif;;
+$text-secondary: #525c65;
+$spacing: 1.5px;
+$text-white: #fff;
+$heading: 2.25rem;
+$sub-heading: 1.25rem;
+$small: 15px;
+$extra-small: 10px;
+$light: 300;
+$medium: 500;
+$semi-bold: 600;
+$bold: 700;
+
+
+$background: #f4f7f9;
+$accent-blue: #02b3e4;
+$accent-pink: #ff5483;
+$accent-yellow: #ffa234;
+
+
+$border: 1px solid transparent;
+$box-shadow: rgba(46,61,73,.2) 5px 5px 25px 0;
+$box-shadow-hover: 2px 4px 8px 0px rgba(46, 61, 73, 0.2);
+$border-radius: .375rem;
+$padding: 10px;
+$margin: 10px;
+
+// media query
+$desktop: 840px;
+@mixin desktop {
+  @media (min-width: #{$desktop}) {
+    @content;
+  }
+}
+

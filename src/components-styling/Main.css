@@ -1,0 +1,176 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap");
+@font-face {
+  font-family: "Lato", sans-serif;
+  font-style: normal;
+  font-display: swap;
+  src: url("https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap");
+}
+.btn-primary {
+  align-items: center;
+  background-color: #02b3e4;
+  border-radius: 0.375rem;
+  border: 1px solid transparent;
+  color: #fff;
+  display: inline-flex;
+  filter: contrast(1.1);
+  font-family: "Lato", sans-serif;
+  font-size: 15px;
+  font-weight: 500;
+  height: 48px;
+  justify-content: center;
+  letter-spacing: 1px;
+  line-height: 20px;
+  min-width: 180px;
+  padding: 8px 23px;
+  text-decoration: none;
+  text-transform: uppercase;
+  transform: translateZ(0);
+  transition: all 150ms;
+}
+.btn-primary:hover {
+  filter: contrast(1.35);
+  outline: 0;
+  transform: scale(1.05);
+}
+
+.btn-small {
+  background-color: #ffa234;
+  color: #fff;
+  border: 1px solid transparent;
+  border-radius: 0.25rem;
+  font-size: 10px;
+  font-weight: 600;
+  font-family: "Lato", sans-serif;
+  letter-spacing: 1.5px;
+  line-height: 1.5rem;
+  margin-top: auto;
+  padding: 0 0.8rem;
+  text-transform: uppercase;
+  z-index: 1;
+}
+
+.btn-small-disabled {
+  background-color: #d2d5e0;
+  color: #fff;
+  border: 1px solid transparent;
+  border-radius: 0.25rem;
+  font-size: 10px;
+  font-weight: 600;
+  font-family: "Lato", sans-serif;
+  letter-spacing: 1.5px;
+  line-height: 1.5rem;
+  margin-top: auto;
+  padding: 0 0.8rem;
+  text-transform: uppercase;
+  z-index: 1;
+}
+
+.btn-small-active {
+  background-color: #ff5483;
+  color: #fff;
+  border: 1px solid transparent;
+  border-radius: 0.25rem;
+  font-size: 10px;
+  font-weight: 600;
+  font-family: "Lato", sans-serif;
+  letter-spacing: 1.5px;
+  line-height: 1.5rem;
+  margin-top: auto;
+  padding: 0 0.8rem;
+  text-transform: uppercase;
+  z-index: 1;
+}
+
+.btn-small-visited {
+  background-color: #02b3e4;
+  color: #fff;
+  border: 1px solid transparent;
+  border-radius: 0.25rem;
+  font-size: 10px;
+  font-weight: 600;
+  font-family: "Lato", sans-serif;
+  letter-spacing: 1.5px;
+  line-height: 1.5rem;
+  margin-top: auto;
+  padding: 0 0.8rem;
+  text-transform: uppercase;
+  z-index: 1;
+}
+
+.btn-small-invisible {
+  display: none;
+}
+
+@font-face {
+  font-family: "Lato", sans-serif;
+  font-style: normal;
+  font-display: swap;
+  src: url("https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap");
+}
+.wrapper .main-illustration {
+  opacity: 0.8;
+  box-sizing: border-box;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 45px;
+  margin-top: 20px;
+  width: 100%;
+  position: relative;
+  padding-top: 20px;
+}
+.wrapper .section-one {
+  box-sizing: border-box;
+  text-align: center;
+  width: 100%;
+}
+.wrapper .section-one a {
+  text-decoration: none;
+}
+.wrapper .section-one h1 {
+  font-size: 2.25rem;
+  font-family: "Lato", sans-serif;
+  color: rgba(0, 0, 0, 0.9);
+  font-weight: bolder;
+  letter-spacing: 1px;
+}
+.wrapper .section-one h2 {
+  font-size: 1.25rem;
+  font-family: "Lato", sans-serif;
+  color: #525c65;
+  font-weight: 500;
+}
+@media (min-width: 840px) {
+  .wrapper .section-one {
+    text-align: left;
+    margin-left: 50px;
+  }
+}
+@media (min-width: 840px) {
+  .wrapper {
+    align-items: center;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: row-reverse;
+    margin: 0 auto;
+    max-width: 1180px;
+  }
+}
+
+.section-two {
+  display: flex;
+  flex-direction: column;
+  padding-top: 10px;
+}
+.section-two a:link {
+  text-decoration: none;
+}
+@media (min-width: 840px) {
+  .section-two {
+    padding: 1rem;
+    display: flex;
+    flex-direction: row;
+  }
+}
+
+/*# sourceMappingURL=Main.css.map */

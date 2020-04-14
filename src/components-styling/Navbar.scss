@@ -1,0 +1,65 @@
+@import '../assets/css/buttons';
+@import '../assets/css/variables';
+
+
+
+nav {
+  left: 0;
+  padding: $padding 0;
+  position: fixed;
+  top: 0;
+  transition: all .6s cubic-bezier(.2,.8,.2,1);
+  width: 100%;
+  z-index: 100;
+  text-align: center;
+  background-color: $text-white;
+
+      ul {
+        display: flex;
+        flex-direction: column;
+        padding: $padding * 2;
+        margin: 0 auto;
+        max-width: 800px;
+        padding-right: 25px;
+        transition: color .8s cubic-bezier(.2,.8,.2,1), background-color .8s cubic-bezier(.2,.8,.2,1), fill .8s cubic-bezier(.2,.8,.2,1);
+        align-items: center;
+        li {
+          list-style: none;
+          color: $text-white;
+          cursor: pointer;
+          font-size: $sub-heading;
+          outline: none;
+          display: flex;
+          align-items: center;
+          padding: $padding $padding * 2;
+          transition: all .8s cubic-bezier(.2,.8,.2,1.2);
+          white-space: nowrap;
+          text-align: center;
+          letter-spacing: 1.2px;
+          .logo {
+            max-width: 5em;
+          }
+          a {
+            text-decoration: none;
+            color: $text-primary;
+            font-family: $font-family;
+            font-size: $small;
+            font-weight: $medium;
+          }
+
+        }
+
+        @include desktop {
+          flex-direction: row;
+          padding: 10px;
+        }
+      }
+}
+
+
+//@include desktop {
+//  display: flex;
+//  justify-content: flex-end;
+//  align-items: center;
+//  padding: $padding $padding * 4;
+//}

@@ -1,0 +1,84 @@
+@import '../assets/css/variables';
+
+
+.card-wrapper {
+  margin: $margin;
+  padding: $padding * 2;
+  box-shadow: $box-shadow;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border: $border;
+  border-radius: $border-radius * 2;
+      &:hover {
+        box-shadow: $box-shadow-hover;
+      }
+      .btn-small {
+        margin-top: $margin;
+        background-color: $accent-yellow;
+      }
+      .course-section {
+        display: flex;
+        flex-direction: column;
+        position: relative;
+        justify-content: center;
+        align-items: center;
+              img {
+                width: 100%;
+                align-items: center;
+                overflow: hidden;
+                text-align: center;
+                border-radius: $border-radius * 2;
+              }
+              .category-title {
+                  padding-top: $padding;
+                  text-transform: uppercase;
+                  letter-spacing: 1px;
+                  font-size: small;
+                  color: $text-primary;
+                  font-family: $font-family;
+                  font-weight: lighter;
+                  line-height: 1.5;
+                  margin: 0;
+                  opacity: .6;
+              }
+              .course-title {
+                text-align: center;
+                font-size: $sub-heading;
+                font-family: $font-family;
+                color: $text-primary;
+                font-weight: bolder;
+                letter-spacing: 1px;
+              }
+      }
+      .lesson-section {
+        display: flex;
+        padding: .5rem 1rem 1rem;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+            img {
+              border-radius: 50%;
+              border-style: none;
+              display: block;
+              height: 35px;
+              width: 35px;
+              object-fit: cover;
+            }
+        .naming {
+          align-items: center;
+          display: flex;
+          flex-direction: column;
+          padding: $padding;
+        }
+          .name, .lessons-info {
+            letter-spacing: 1px;
+            font-size: $small;
+            color: $text-secondary;
+            font-family: $font-family;
+            font-weight: $light;
+            line-height: 1.5;
+            margin: 0;
+          }
+        }
+}

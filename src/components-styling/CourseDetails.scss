@@ -1,0 +1,29 @@
+@import '../assets/css/variables';
+
+.video-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding-top: $padding * 40;
+            .message-status {
+                font-family: $font-family;
+                font-size: $small;
+                letter-spacing: 1px;
+                color: $accent-blue
+            }
+
+            .btn-small {
+              margin-bottom: $margin;
+            }
+          a {
+            text-decoration: none;
+          }
+            .btn-primary {
+              margin-bottom: $margin;
+              margin-top: $margin;
+            }
+       @include desktop {
+         padding-top: $padding * 20;
+       }
+}

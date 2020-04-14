@@ -1,0 +1,16 @@
+@import '../assets/css/variables';
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding-top: $padding * 4;
+}
+
+h2 {
+  font-family: $font-family;
+  letter-spacing: 1px;
+  color: $text-primary;
+  padding-bottom: $padding * 2;
+}

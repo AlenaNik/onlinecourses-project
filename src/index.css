@@ -1,0 +1,14 @@
+
+*, *:before, *:after {
+    -webkit-box-sizing: inherit;
+    box-sizing: inherit;
+}
+
+body {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+
+
