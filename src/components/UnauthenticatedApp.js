@@ -1,4 +1,4 @@
-import React, {useContext, useEffect, useState} from 'react'
+import React, {useContext } from 'react'
 import '../components-styling/UnauthenticatedApp.scss'
 import AuthContext from '../context/AuthContext'
 import Button from './Button'
